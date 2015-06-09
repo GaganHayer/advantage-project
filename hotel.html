@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src ="../scriptfiles/angular.js"></script>
+<script type="text/javascript" src ="../javascript/hotel.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/hotel.css"/>
+<script type="text/javascript" src ="../scriptfiles/route.js"></script>
+<script type="text/javascript" src ="../scriptfiles/ngStorage.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ 
+</head>
+<body>
+<section class="maindiv" class="container">
+<div class="background">
+<header class="background">
+<div class="priceline">
+<h1>priceline.com</h1>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" class="background">
+      <ul class="nav navbar-nav">
+        <li><a  href="#">Hotel</a></li>
+        <li><a href="#">Cars</a></li>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Vacation Package</a></li>
+        <li><a href="#">Cruises</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Help<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Self Service</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Frequent asked questions</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Find your request number</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Profile Password help</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Trips<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">My Flight</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Check your Flight status</a></li>
+            <li class="divider"></li>
+            <li><a href="#">View,print or Email your itinerary </a></li>
+            <li class="divider"></li>
+            <li><a href="#">Check Your Request Status</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+</div>
+
+<div class="container">
+  <div class="twinbox"> 
+  <h1 class="heading">Search and Save on Hotels</h1>
+ <label class="location-input" for="hotel-dest">
+	Where are you going?
+	<input id="hotel-dest" class="ui-autocomplete-input" type="text" x-webkit-speech="" autocomplete="off" placeholder="City, Airport or Point of Interest" name="cityName" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+</label>
+
+  </div>
+  <div class="twinbox1"> </div>
+  
+</div>
+
+</section>
+
+</body>
+</html>
